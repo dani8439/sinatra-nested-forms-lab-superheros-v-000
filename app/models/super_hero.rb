@@ -6,6 +6,10 @@ class SuperHero
     @name = args[:name]
     @motto = args[:motto]
     @bio = args[:bio]
-    SUPERHEROES << self 
+    SUPERHEROES << self
+  end
+
+  def self.all
+    SUPERHEROES
   end
 end
