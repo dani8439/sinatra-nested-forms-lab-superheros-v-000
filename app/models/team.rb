@@ -8,4 +8,12 @@ class Team
     @motto = params[:motto]
     TEAMS << self
   end 
+
+  def self.all 
+    TEAMS 
+  end 
+
+  def self.delete 
+    TEAMS.clear 
+  end
 end
