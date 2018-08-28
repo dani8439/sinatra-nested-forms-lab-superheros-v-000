@@ -1,5 +1,5 @@
 class SuperHero
-  attr_accesspr :name, :motto, :bio
+  attr_accessor :name, :motto, :bio
   SUPERHEROES = []
 
   def initialize(args)
